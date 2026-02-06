@@ -5,7 +5,7 @@
 ![Protocol](https://img.shields.io/badge/Protocol-SIP-green?style=flat-square)
 ![Library](https://img.shields.io/badge/Library-Paramiko-red?style=flat-square)
 
-Cisco Unified Border Element (CUBE) gateway cihazları üzerinde akan yoğun SIP trafiğini, sadece ilgilendiğiniz telefon numaralarına göre filtreleyerek gerçek zamanlı izlemenizi sağlayan bir ağ analiz aracıdır.
+Cisco Unified Border Element (CUBE) Gateway cihazları üzerinde akan yoğun SIP trafiğini, sadece ilgilendiğiniz telefon numaralarına göre filtreleyerek gerçek zamanlı izlemenizi sağlayan bir ağ analiz aracıdır.
 
 Cisco CUBE üzerindeki çalışmalarda en büyük zorluklardan biri, eşzamanlı yüzlerce çağrının aktığı yoğun trafikli bir gateway cihazında belirli bir çağrıya ait SIP sinyalleşmesini izlemektir.
 
@@ -35,6 +35,7 @@ Proje, SSH bağlantısı için `paramiko` kütüphanesini kullanır.
 * `USERNAME` / `PASSWORD`: SSH giriş bilgileri.
 
 * `ARANAN_NO` / `ARAYAN_NO`: Takip etmek istediğiniz telefon numaraları.
+
 
 
 
