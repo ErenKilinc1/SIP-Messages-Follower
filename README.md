@@ -18,7 +18,7 @@ Bu projenin çalışması için sisteminizde aşağıdaki bileşenlerin yüklü 
 * **SSH Erişimi:** Hedef Cisco Router'a SSH üzerinden erişim yetkisi ve `privilege level 15` yetkisi.
 * **Bağımlılıklar:** SSH motoru olarak `paramiko` kütüphanesi kullanılır.
 
-## Kütüphaneleri yükleyin:
+## Kütüphaneleri Yükleyin
     Proje, SSH bağlantısı için `paramiko` kütüphanesini kullanır.
     
     ```
@@ -32,3 +32,4 @@ Bu projenin çalışması için sisteminizde aşağıdaki bileşenlerin yüklü 
 * `USERNAME` / `PASSWORD`: SSH giriş bilgileri.
 
 * `ARANAN_NO` / `ARAYAN_NO`: Takip etmek istediğiniz telefon numaraları.
+
