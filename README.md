@@ -1,4 +1,9 @@
-# SIP Messages Follower
+# Cisco CUBE SIP Messages Follower
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
+![Cisco](https://img.shields.io/badge/Cisco-CUBE%20%2F%20IOS--XE-orange?style=flat-square&logo=cisco)
+![Protocol](https://img.shields.io/badge/Protocol-SIP-green?style=flat-square)
+![Library](https://img.shields.io/badge/Library-Paramiko-red?style=flat-square)
 
 Cisco Unified Border Element (CUBE) gateway cihazları üzerinde akan yoğun SIP trafiğini, sadece ilgilendiğiniz telefon numaralarına göre filtreleyerek gerçek zamanlı izlemenizi sağlayan bir ağ analiz aracıdır.
 
@@ -19,11 +24,9 @@ Bu projenin çalışması için sisteminizde aşağıdaki bileşenlerin yüklü 
 * **Bağımlılıklar:** SSH motoru olarak `paramiko` kütüphanesi kullanılır.
 
 ## Kütüphaneleri Yükleyin
-    Proje, SSH bağlantısı için `paramiko` kütüphanesini kullanır.
-    
-    `
-    pip install -r requirements.txt
-    `
+Proje, SSH bağlantısı için `paramiko` kütüphanesini kullanır.
+
+`pip install -r requirements.txt`
 
 ## Kullanım
 `SIP_messages_follower.py` dosyasını açarak konfigürasyon değişkenlerini düzenleyin:
@@ -32,5 +35,6 @@ Bu projenin çalışması için sisteminizde aşağıdaki bileşenlerin yüklü 
 * `USERNAME` / `PASSWORD`: SSH giriş bilgileri.
 
 * `ARANAN_NO` / `ARAYAN_NO`: Takip etmek istediğiniz telefon numaraları.
+
 
 
