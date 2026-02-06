@@ -5,7 +5,7 @@ import re
 ROUTER_IP = 'Router_IP'
 USERNAME = 'user.name'
 PASSWORD = 'your_password'
-ARANAN_NO = 'Aranan_NO'
+ARANAN_NO = 'Aranan_No'
 ARAYAN_NO = 'Arayan_No'
 
 
@@ -61,4 +61,5 @@ def stream_sip_logs():
             ssh.close()
 
 if __name__ == "__main__":
+
     stream_sip_logs()
