@@ -21,9 +21,9 @@ Bu projenin çalışması için sisteminizde aşağıdaki bileşenlerin yüklü 
 ## Kütüphaneleri Yükleyin
     Proje, SSH bağlantısı için `paramiko` kütüphanesini kullanır.
     
-    ```
+    `
     pip install -r requirements.txt
-    ```
+    `
 
 ## Kullanım
 `SIP_messages_follower.py` dosyasını açarak konfigürasyon değişkenlerini düzenleyin:
@@ -32,4 +32,5 @@ Bu projenin çalışması için sisteminizde aşağıdaki bileşenlerin yüklü 
 * `USERNAME` / `PASSWORD`: SSH giriş bilgileri.
 
 * `ARANAN_NO` / `ARAYAN_NO`: Takip etmek istediğiniz telefon numaraları.
+
 
