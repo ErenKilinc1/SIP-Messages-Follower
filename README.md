@@ -20,7 +20,8 @@ Bu projenin çalışması için sisteminizde aşağıdaki bileşenlerin yüklü 
 
 ## Kütüphaneleri yükleyin:
     Proje, SSH bağlantısı için `paramiko` kütüphanesini kullanır.
-    ```bash
+    
+    ```
     pip install -r requirements.txt
     ```
 
@@ -29,4 +30,5 @@ Bu projenin çalışması için sisteminizde aşağıdaki bileşenlerin yüklü 
 
 * `ROUTER_IP`: CUBE IP adresi.
 * `USERNAME` / `PASSWORD`: SSH giriş bilgileri.
+
 * `ARANAN_NO` / `ARAYAN_NO`: Takip etmek istediğiniz telefon numaraları.
